@@ -1,0 +1,72 @@
+{
+  "title": "TransDigm Aerospace Component Structure",
+  "description": "JSON structure documentation for a TransDigm Group aerospace component data record.",
+  "type": "object",
+  "fields": [
+    {
+      "name": "partNumber",
+      "type": "string",
+      "required": true,
+      "description": "Manufacturer's part number (MPN).",
+      "example": "TDG-ACT-12345-001"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": "Component name or description.",
+      "example": "Flight Control Actuator Assembly"
+    },
+    {
+      "name": "productCategory",
+      "type": "string",
+      "required": true,
+      "description": "High-level product category (Actuation Systems, Ignition Systems, etc.).",
+      "example": "Actuation Systems"
+    },
+    {
+      "name": "operatingUnit",
+      "type": "string",
+      "required": true,
+      "description": "TransDigm operating unit manufacturer.",
+      "example": "Skurka Aerospace"
+    },
+    {
+      "name": "aircraftPlatforms",
+      "type": "array",
+      "items": "string",
+      "required": false,
+      "description": "Aircraft platforms this component is qualified for.",
+      "example": ["Boeing 737", "Airbus A320"]
+    },
+    {
+      "name": "market",
+      "type": "string",
+      "required": false,
+      "description": "Market segment: Commercial, Military, or Both.",
+      "example": "Both"
+    },
+    {
+      "name": "isSoleSource",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether TransDigm is the sole qualified manufacturer.",
+      "example": true
+    },
+    {
+      "name": "isProprietary",
+      "type": "boolean",
+      "required": false,
+      "description": "Whether TransDigm holds the proprietary design.",
+      "example": true
+    },
+    {
+      "name": "certifications",
+      "type": "array",
+      "items": "string",
+      "required": false,
+      "description": "Applicable FAA, EASA, and other certifications.",
+      "example": ["FAA PMA", "EASA"]
+    }
+  ]
+}

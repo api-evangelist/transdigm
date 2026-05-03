@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/transdigm/main/json-schema/transdigm-component-schema.json",
+  "title": "TransDigm Aerospace Component",
+  "description": "Schema for a proprietary aerospace component manufactured by a TransDigm Group operating unit.",
+  "type": "object",
+  "properties": {
+    "partNumber": {
+      "type": "string",
+      "description": "Manufacturer's part number (MPN) for the component.",
+      "example": "TDG-ACT-12345-001"
+    },
+    "name": {
+      "type": "string",
+      "description": "Component name or description.",
+      "example": "Flight Control Actuator Assembly"
+    },
+    "productCategory": {
+      "type": "string",
+      "description": "High-level product category.",
+      "enum": [
+        "Actuation Systems",
+        "Ignition Systems",
+        "Fuel Systems",
+        "Flight Control Components",
+        "Cockpit Security Systems",
+        "Passenger Safety Systems",
+        "Avionics and Controls",
+        "Sensors and Systems",
+        "Airframe Components"
+      ],
+      "example": "Actuation Systems"
+    },
+    "operatingUnit": {
+      "type": "string",
+      "description": "TransDigm operating unit that manufactures this component.",
+      "example": "Skurka Aerospace"
+    },
+    "aircraftPlatforms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Aircraft platforms this component is qualified for.",
+      "example": ["Boeing 737", "Airbus A320", "F-35"]
+    },
+    "market": {
+      "type": "string",
+      "enum": ["Commercial", "Military", "Both"],
+      "description": "Market segment this component serves.",
+      "example": "Both"
+    },
+    "isSoleSource": {
+      "type": "boolean",
+      "description": "Whether TransDigm is the sole qualified manufacturer of this component.",
+      "example": true
+    },
+    "isProprietary": {
+      "type": "boolean",
+      "description": "Whether TransDigm holds the proprietary design for this component.",
+      "example": true
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Applicable certifications and approvals.",
+      "example": ["FAA PMA", "FAA TSO", "EASA"]
+    }
+  },
+  "required": ["partNumber", "name", "productCategory", "operatingUnit"]
+}

@@ -1,0 +1,52 @@
+vocabulary: 1.0.0
+info:
+  provider: TransDigm Group
+  description: Vocabulary for the TransDigm Group aerospace components business covering proprietary aerospace products, systems, and the aerospace and defense supply chain.
+  created: '2026-05-03'
+  modified: '2026-05-03'
+domain:
+  terms:
+    - term: Proprietary Content
+      definition: Aerospace components for which TransDigm holds the design and is the sole or primary manufacturer, providing pricing power in the aftermarket.
+    - term: Sole-Source
+      definition: A supplier position where TransDigm is the only qualified manufacturer of a specific part, common in aerospace for safety-critical components.
+    - term: Aftermarket
+      definition: The market for replacement parts, maintenance, and repair of aircraft after initial OEM production, TransDigm's highest-margin segment.
+    - term: OEM
+      definition: Original Equipment Manufacturer — aircraft or engine manufacturers that purchase TransDigm components during production (e.g., Boeing, Airbus, GE, Pratt & Whitney).
+    - term: MRO
+      definition: Maintenance, Repair, and Overhaul — services and parts used to maintain aircraft in service, a key aftermarket channel.
+    - term: Actuation System
+      definition: Electromechanical or hydraulic system that moves flight control surfaces, landing gear, doors, and other aircraft structures.
+    - term: Ignition System
+      definition: Aircraft engine starting and continuous ignition system using high-energy spark igniters and exciter units.
+    - term: ETD
+      definition: Engineered to Drawing — custom aerospace components manufactured to customer-supplied design specifications.
+    - term: Operating Unit
+      definition: One of TransDigm's approximately 49 largely autonomous business units, each focused on specific product lines and customer relationships.
+    - term: Defense OEM
+      definition: Military aircraft and systems manufacturers purchasing TransDigm components for defense programs.
+    - term: Flight Control
+      definition: Mechanical and electrical systems controlling aircraft attitude and trajectory via control surfaces.
+    - term: Airframe Component
+      definition: Structural or mechanical parts of the aircraft fuselage, wings, and tail assembly.
+    - term: PMA Part
+      definition: Parts Manufacturer Approval — FAA approval allowing production of aircraft parts as alternatives to OEM parts.
+    - term: FAA
+      definition: Federal Aviation Administration — US regulatory authority overseeing airworthiness certification of aircraft components.
+    - term: EASA
+      definition: European Union Aviation Safety Agency — European regulatory authority for aircraft component certification.
+    - term: AS9100
+      definition: Quality management system standard for the aerospace industry, similar to ISO 9001 with additional aviation-specific requirements.
+  tags:
+    - Aerospace
+    - Actuation Systems
+    - Aviation
+    - Defense
+    - Fuel Systems
+    - Ignition Systems
+    - Manufacturing
+    - MRO
+    - Passenger Safety
+    - Proprietary Components
+    - Sole-Source

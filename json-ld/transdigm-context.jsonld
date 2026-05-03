@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "transdigm": "https://www.transdigm.com/ns/",
+    "aerospace": "https://schema.org/",
+
+    "AerospaceComponent": "transdigm:AerospaceComponent",
+    "ActuationSystem": "transdigm:ActuationSystem",
+    "IgnitionSystem": "transdigm:IgnitionSystem",
+    "FuelSystem": "transdigm:FuelSystem",
+    "FlightControlComponent": "transdigm:FlightControlComponent",
+    "PassengerSafetySystem": "transdigm:PassengerSafetySystem",
+    "CockpitSystem": "transdigm:CockpitSystem",
+    "OperatingUnit": "transdigm:OperatingUnit",
+
+    "Organization": "schema:Organization",
+    "Manufacturer": "schema:Organization",
+    "Product": "schema:Product",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+
+    "partNumber": "transdigm:partNumber",
+    "assetClass": "transdigm:assetClass",
+    "aircraftType": "transdigm:aircraftType",
+    "certificationStandard": "transdigm:certificationStandard",
+    "isSoleSource": "transdigm:isSoleSource",
+    "isPropriety": "transdigm:isProprietary",
+    "operatingUnit": "transdigm:operatingUnit"
+  }
+}
