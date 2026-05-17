@@ -35,7 +35,7 @@ common:
     url: https://www.transdigm.com/transdigm-overview/products/
   - type: PrivacyPolicy
     url: https://www.transdigm.com/privacy-policy/
-  - type: JSONLd
+  - type: JSONLD
     url: json-ld/transdigm-context.jsonld
   - type: JSONSchema
     url: json-schema/transdigm-component-schema.json
