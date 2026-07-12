@@ -23,6 +23,8 @@ tags:
   - Proprietary Components
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/transdigm-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/transdigmgrp
   - type: Website
