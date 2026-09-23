@@ -1,7 +1,9 @@
 ---
 title: 'Transdigm''s AI Strategy: Analysis of Dominance in Defense ...'
 url: https://www.klover.ai/transdigm-ai-strategy-analysis-of-dominance-in-defense-aerospace/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"TransDigm Group" press release artificial intelligence'
 position: 2
 source: serpapi-google

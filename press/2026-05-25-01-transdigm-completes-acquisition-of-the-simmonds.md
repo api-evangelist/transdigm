@@ -1,7 +1,9 @@
 ---
 title: TransDigm Completes Acquisition of the Simmonds ...
 url: https://www.prnewswire.com/news-releases/transdigm-completes-acquisition-of-the-simmonds-precision-products-inc-business-of-goodrich-corporation-from-rtx-corporation-302575757.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"TransDigm Group" press release artificial intelligence'
 position: 1
 source: serpapi-google
