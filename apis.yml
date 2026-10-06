@@ -35,7 +35,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transdigm.png
 url: https://raw.githubusercontent.com/api-evangelist/transdigm/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-05-03'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 tags:
   - Aerospace
@@ -45,6 +45,8 @@ tags:
   - Proprietary Components
 apis: []
 common:
+  - url: https://www.transdigm.com/feed/
+    type: BlogRSS
   - type: DomainSecurity
     url: security/transdigm-domain-security.yml
   - type: LinkedIn
