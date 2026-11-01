@@ -64,42 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TransDigm Group is a leading global designer, producer, and supplier of highly engineered aerospace components, systems, and subsystems for use on nearly all commercial and military aircraft. The company operates approximately 49 independent operating units producing proprietary, sole-source components with high aftermarket value.
+TransDigm Group is a leading global designer, producer, and supplier of highly engineered aerospace components, systems, and subsystems for use on nearly all commercial and military aircraft. The company operates 49 independent operating units producing proprietary, sole-source components including actuation systems, ignition systems, fuel systems, airframe and flight control components, cockpit security systems, seatbelts, airbags, pumps, valves, switches, and cockpit displays. TransDigm serves commercial airlines, defense OEMs, aerospace distributors, and the US Department of Defense.
 
-**Website:** https://www.transdigm.com  
-**Investor Relations:** https://transdigmgroupinc.gcs-web.com  
-**Operating Units:** https://www.transdigm.com/transdigm-overview/operating-units/
+**Areas:** Aerospace · Defense · Manufacturing · Fortune 500 · Proprietary Components
 
-## About
+## TransDigm Group on APIs.io
 
-TransDigm does not publish a public developer API. The company's business model is focused on aerospace manufacturing — designing and supplying proprietary components to commercial airlines, military programs, and aerospace distributors. This repository profiles the company, its data vocabulary, and schemas for aerospace component data.
+Everything profiled for TransDigm Group is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/transdigm/](https://apis.io/providers/transdigm/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-### JSON Schemas
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| File | Description |
-|------|-------------|
-| [transdigm-component-schema.json](json-schema/transdigm-component-schema.json) | Schema for aerospace component data records |
+#### JSON Schema (1)
 
-### JSON Structure
+The data models the API reads and writes.
 
-| File | Description |
-|------|-------------|
-| [transdigm-component-structure.json](json-structure/transdigm-component-structure.json) | Structure documentation for aerospace component objects |
+- [TransDigm Aerospace Component](https://apis.io/schemas/transdigm/transdigm-component/)
 
-### JSON-LD
+#### JSON Structure (1)
 
-| File | Description |
-|------|-------------|
-| [transdigm-context.jsonld](json-ld/transdigm-context.jsonld) | JSON-LD context for TransDigm aerospace linked data |
+Data models expressed in JSON Structure.
 
-### Vocabulary
+- [Transdigm Component Structure](https://apis.io/json-structure/transdigm/transdigm-component-structure/)
 
-| File | Description |
-|------|-------------|
-| [transdigm-vocabulary.yml](vocabulary/transdigm-vocabulary.yml) | Domain vocabulary for aerospace components and supply chain |
+#### JSON-LD (1)
 
-## Maintainers
+Linked-data contexts for the provider's vocabulary.
 
-- **Kin Lane** (kin@apievangelist.com)
+- [Transdigm Context](https://apis.io/jsonld/transdigm/transdigm-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Transdigm Vocabulary](https://apis.io/vocabularies/transdigm/transdigm-vocabulary/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TransDigm Group — jsonschema rules](https://apis.io/rules/transdigm/transdigm-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Transdigm Domain Security](https://apis.io/security/transdigm/transdigm-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.transdigm.com)
+- [Documentation](https://www.transdigm.com/transdigm-overview/)
+- [Privacy policy](https://www.transdigm.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 11.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/transdigm/](https://apis.io/providers/transdigm/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TransDigm Group: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/transdigm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
